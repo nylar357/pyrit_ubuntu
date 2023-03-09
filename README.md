@@ -1,5 +1,5 @@
 Pre-requisites
-Step-1: Update System and Install Dependencies
+# Step-1: Update System and Install Dependencies
 
 For packages that need to be installed on your system, execute the following commands in terminal.
 Update the system:
@@ -11,10 +11,11 @@ Install the dependencies:
 ```  sudo apt install git python2-dev libssl-dev libpcap-dev -y   ```
 
  
-Step-2: Compile Pyrit
+# Step-2: Compile Pyrit
 Pull the application from the Github page:
 
 ```  git clone https://github.com/JPaulMora/Pyrit.git --depth=1   ```
+
 ```  sed -i "s/COMPILE_AESNI/COMPILE_AESNIX/" Pyrit/cpyrit/_cpyrit_cpu.c    ```
 
   HINT:
@@ -46,9 +47,9 @@ creating build/scripts-2.7
 copying and adjusting pyrit -> build/scripts-2.7
 changing mode of build/scripts-2.7/pyrit from 644 to 755  
 
- 
-Step-3: Install Pyrit
-It may give some warnings after compilation. Then run the install command:
+# Step-3: Install Pyrit
+
+ It may give some warnings after compilation. Then run the install command:
 
 ```sudo python2 setup.py install```
 

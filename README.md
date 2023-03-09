@@ -29,7 +29,7 @@ ImportError: /usr/local/lib/python2.7/dist-packages/cpyrit/_cpyrit_cpu.so: undef
 
   Run the following steps in order:
 
-```  cd Pyrit    ```
+``` pyrit -h ``` 
 
 ```   python2 setup.py clean   ```
 

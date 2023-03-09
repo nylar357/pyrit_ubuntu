@@ -50,7 +50,7 @@ changing mode of build/scripts-2.7/pyrit from 644 to 755
 Step-3: Install Pyrit
 It may give some warnings after compilation. Then run the install command:
 
-```   sudo python2 setup.py install   ```
+```   sudo python2 setup.py install
 
 ```running install
 running build
@@ -60,7 +60,7 @@ running build_scripts
 running install_lib
 creating /usr/local/lib/python2.7/dist-packages/cpyrit
 copying build/lib.linux-x86_64-2.7/cpyrit/_cpyrit_cpu.so -> /usr/local/lib/python2.7/dist-packages/cpyrit
-copying build/lib.linux-x86_64-2.7/cpyrit/cpyrit.py -> /usr/local/lib/python2.7/dist-packages/cpyrit ```
+copying build/lib.linux-x86_64-2.7/cpyrit/cpyrit.py -> /usr/local/lib/python2.7/dist-packages/cpyrit
 copying build/lib.linux-x86_64-2.7/cpyrit/pckttools.py ->  ```
 .
 .
@@ -81,7 +81,7 @@ After this step, go up one directory to avoid messing with module searches:
 
 ```   cd ..  ```
 
-```  pyrit -h    ```          
+``` pyrit -h ```          
 
  
 ALSO READ: How to set up WordPress Reverse Shell [100% Working]

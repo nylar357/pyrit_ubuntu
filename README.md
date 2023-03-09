@@ -1,17 +1,17 @@
 Pre-requisites
-# Step-1: Update System and Install Dependencies
+## Step-1: Update System and Install Dependencies
 
 For packages that need to be installed on your system, execute the following commands in terminal.
 Update the system:
 
 ```  sudo apt update -y   ```
 
-Install the dependencies:
+# 𝕴𝖓𝖘𝖙𝖆𝖑𝖑 𝖙𝖍𝖊 𝖉𝖊𝖕𝖊𝖓𝖉𝖊𝖓𝖈𝖎𝖊𝖘:
 
 ```  sudo apt install git python2-dev libssl-dev libpcap-dev -y   ```
 
  
-# Step-2: Compile Pyrit
+## Step-2: Compile Pyrit
 Pull the application from the Github page:
 
 ```  git clone https://github.com/JPaulMora/Pyrit.git --depth=1   ```
@@ -28,7 +28,7 @@ Traceback (most recent call last):
     import _cpyrit_cpu
 ImportError: /usr/local/lib/python2.7/dist-packages/cpyrit/_cpyrit_cpu.so: undefined symbol: aesni_key
 
-  Run the following steps in order:
+ᴿᵘⁿ ᵗʰᵉ ᶠᵒˡˡᵒʷⁱⁿᵍ ˢᵗᵉᵖˢ ⁱⁿ ᵒʳᵈᵉʳ⠘
 
 ``` pyrit -h ``` 
 
@@ -47,10 +47,9 @@ creating build/scripts-2.7
 copying and adjusting pyrit -> build/scripts-2.7
 changing mode of build/scripts-2.7/pyrit from 644 to 755  
 
-# Step-3: Install Pyrit
+## Step-3: Install Pyrit
 
- It may give some warnings after compilation. Then run the install command:
-
+ # 𝕀𝕥 𝕞𝕒𝕪 𝕘𝕚𝕧𝕖 𝕤𝕠𝕞𝕖 𝕨𝕒𝕣𝕟𝕚𝕟𝕘𝕤 𝕒𝕗𝕥𝕖𝕣 𝕔𝕠𝕞𝕡𝕚𝕝𝕒𝕥𝕚𝕠𝕟. 𝕋𝕙𝕖𝕟 𝕣𝕦𝕟 𝕥𝕙𝕖 𝕚𝕟𝕤𝕥𝕒𝕝𝕝 𝕔𝕠𝕞𝕞𝕒𝕟𝕕:
 ```sudo python2 setup.py install```
 
 ![preview](img/pyrit1.png)

@@ -52,11 +52,10 @@ It may give some warnings after compilation. Then run the install command:
 
 ```sudo python2 setup.py install```
 
-![preview](imgs/pyrit1.png)
+![preview](img/pyrit1.png)
 
 
-![preview](imgs/pyrit2.png)
+![preview](img/pyrit2.png)
 
 
-
-![preview](imgs/pyrit3.png)
+![preview](img/pyrit3.png)

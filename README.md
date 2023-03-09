@@ -18,7 +18,7 @@ Pull the application from the Github page:
 
 ```  sed -i "s/COMPILE_AESNI/COMPILE_AESNIX/" Pyrit/cpyrit/_cpyrit_cpu.c    ```
 
-  HINT:
+#   🇭​​​​​ 🇮​​​​​ 🇳​​​​​ 🇹​​​​​
 If you skip the above step, you will get the following error after pyrit -h command:
 
 Traceback (most recent call last):

@@ -20,13 +20,12 @@ Pull the application from the Github page:
   HINT:
 If you skip the above step, you will get the following error after pyrit -h command:
 
-```    pyrit -h   
 Traceback (most recent call last):
   File "/usr/local/bin/pyrit", line 4, in <module>
     import pyrit_cli
   File "/usr/local/lib/python2.7/dist-packages/cpyrit/util.py", line 54, in <module>
     import _cpyrit_cpu
-ImportError: /usr/local/lib/python2.7/dist-packages/cpyrit/_cpyrit_cpu.so: undefined symbol: aesni_key ```
+ImportError: /usr/local/lib/python2.7/dist-packages/cpyrit/_cpyrit_cpu.so: undefined symbol: aesni_key
 
   Run the following steps in order:
 
@@ -34,7 +33,8 @@ ImportError: /usr/local/lib/python2.7/dist-packages/cpyrit/_cpyrit_cpu.so: undef
 
 ```   python2 setup.py clean   ```
 
-```   python2 setup.py build   
+ ```   python2 setup.py build   ``` 
+
 running build
 running build_py
 creating build
@@ -44,14 +44,15 @@ creating build/lib.linux-x86_64-2.7/cpyrit
 running build_scripts
 creating build/scripts-2.7
 copying and adjusting pyrit -> build/scripts-2.7
-changing mode of build/scripts-2.7/pyrit from 644 to 755   ```
+changing mode of build/scripts-2.7/pyrit from 644 to 755  
 
  
 Step-3: Install Pyrit
 It may give some warnings after compilation. Then run the install command:
 
-```   sudo python2 setup.py install   
-running install
+```   sudo python2 setup.py install   ```
+
+```running install
 running build
 running build_py
 running build_ext
@@ -74,8 +75,7 @@ changing mode of /usr/local/bin/pyrit to 755
 running install_egg_info
 Writing /usr/local/lib/python2.7/dist-packages/pyrit-0.5.1.egg-info  ```
 
- 
-ALSO READ: BEeF Hacking Framework Tutorial [5 Easy Steps]
+
 
 After this step, go up one directory to avoid messing with module searches:
 
